@@ -1,0 +1,327 @@
+@charset "utf-8";
+footer {
+    font-size: medium;
+    text-align: center;
+    clear: both;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    left: 0px;
+    right: 0px;
+    background-color: #FFF700;
+    font-family: allerta;
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+	  animation-name: example;
+  animation-duration: 4s;
+	animation-iteration-count:infinite;
+	
+	background-image: url("../images/tpaw.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    margin-top: 19px;
+    margin-bottom: 38px;
+}
+body nav a {
+    color: #000000;
+    font-family: allerta;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+.navlist {
+    list-style-type: none;
+    background-color: #FFF700;
+    overflow-x: hidden;
+}
+.navlistitem {
+    float: left;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
+
+.navbar {
+	background-color: #FFF700 !important;
+	height: 75px;
+}
+
+.collapse {
+	background-color: #FFF700 !important;
+}
+
+.title {
+	text-align: center;
+}
+
+
+
+.content {
+	background-color: white;
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 10px;
+    padding-right: 25px;
+	padding-left: 25px;
+    border-color: #000000;
+    border-style: solid;
+	margin-bottom: 50px;
+
+}
+.content img {
+	border-radius: 20px;
+    width: 40%;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+}
+
+.content li {
+	font: bold;
+    color: #000000;
+    font-size: medium;
+     
+}
+
+#foodpic {
+	height: 270px;
+	width: auto;
+}
+
+
+#groompic {
+	height: 230px;
+	width: auto;
+}
+
+
+
+
+section {
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 10px;
+    width: 30%;
+     margin-right: 15%;
+    float: right;
+	margin-bottom: 50px;
+}
+aside { margin-left: 15%;
+    width: 30%;
+    float: left;
+	margin-bottom: 50px;
+}
+body section img {
+    float: right;
+    border-radius: 26px;
+	 display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+body aside img {
+    float: left;
+    border-radius: 26px;
+	 display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+.Breeds1{
+	background-color: white;
+	width: 250px;
+	border-radius: 10px;
+	border-color: #000000;
+    border-style: solid;
+}
+
+.Breeds1 img {
+	margin-top:5px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+
+}
+
+
+
+#mid {
+	margin-left: 27px;
+	margin-right: 27px;
+}
+.Breeds1 p {
+		margin-top:5px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.gha {
+	width: 20%;
+	margin-left: 156px;
+	margin-right: auto;
+}
+
+
+.content1 {
+		background-color: #FFF700;
+    width: 47%;
+    border-radius: 10px;
+    margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+	padding-bottom: 10px;
+    padding-right: 25px;
+	padding-left: 25px;
+    border-color: #000000;
+    border-style: solid;
+	margin-bottom: 50px;
+}
+
+input {
+	background-color: #FFFFFF;
+    border: thin solid #000000;
+    padding-top: 0.4rem;
+    padding-right: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.4rem;
+    font-size: 0.8rem;
+    height: 1.5rem;
+}
+
+fieldset {
+    
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+textarea {
+    background-color: #FFFFFF;
+    border: thin solid #000000;
+    width: 98%;
+    min-height: 10rem;
+    margin-top: 0.4rem;
+    margin-right: 0.4rem;
+    margin-bottom: 0.4rem;
+    margin-left: 0.4rem;
+    font-size: 0.8rem;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#submit input {
+    background-color: #FFFFFF;
+    color: #000000;
+     border: thin solid ;
+    font-style: normal;
+    font-weight: 800;
+    border-width: medium;
+    border-radius: 10px;
+    border-style: thin;
+    width: 12rem;
+    font-size: 1rem;
+    height: 2.4rem;
+}
+#submit {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+label {
+	width: 100px;
+	margin-right: 1em;
+}
+
+
+@media (max-width: 600px){
+aside {
+    
+    width: 90%;
+    float: none;
+    margin-bottom: 50px;
+}
+section {
+    width: 90%;
+    float: none;
+    margin-bottom: 50px;
+}
+	
+	body section img {
+	margin-top: 10px;
+	margin-left: 90px;
+	margin-right: 90px;
+    float: none;
+    border-radius: 26px;
+}
+	
+	body aside img {
+	margin-right: 90px;
+    float: none;
+    border-radius: 26px;
+}
+}
+
+@media (max-width: 600px){
+.across input {
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.across label {
+    display: none;
+}
+select {
+    display: block;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+}
+
+
+@keyframes example {
+   25%   {background-color: white;}
+  50% {background-color: black;}
+  25%  {background-color: white;}
+  50%  {background-color: black;}
+  25% {background-color: white;}
+
+}
